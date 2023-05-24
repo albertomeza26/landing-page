@@ -2,8 +2,8 @@ body{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin: 0;
+    font-family: sans-serif;
 }
 .header {
     background-color: #1f2937;
@@ -13,21 +13,47 @@ body{
 .section-one {
     background-color: #1f2937;
     color: white;
-    height: 300px;
+    height: 400px;
 }
 .section-two {
     background-color: white;
     color: #1f2937;
-    height: 300px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
+.section-box {
+    display: flex;
+}
+.section-tt {
+    margin-bottom: auto;
+    margin-top: 30px;
+}
+.bb-box-one {
+    font-size: 12px;
+    width: 160px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.blue-border {
+    border: 3px solid #3882f6;
+    height: 125px;
+    width: 125px;
+    border-radius: 7px;
+}
+
 .section-three {
     background-color: #e5e7eb;
-    height: 300px;
+    height: 400px;
     color: #1f2937;
 }
 .section-four {
     background-color: white;
-    height: 300px;
+    height: 400px;
     color: white;
     display: flex;
     justify-content: center;
@@ -36,9 +62,9 @@ body{
 .blue-section{
     background-color: #3882f6;
     border-radius: 5px;
-    max-width: 1200px;
+    max-width: 1000px;
     min-width: 570px;
-    height: 100px;
+    height: 125px;
     display: flex;
     flex: 1;
     padding-left: 100px;
@@ -50,12 +76,14 @@ body{
 button {
     background-color: #3882f6;
     color: white;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 5px;
     height: 25px;
     width: 100px;
     margin-left: auto;
     margin-right: 100px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .footer {
@@ -69,9 +97,10 @@ button {
 .cuatro-text {
     margin-right: auto;
 }
-h3 {
-    margin: 0;
+.blue-bold {
+    font-weight: bold;
+    font-size: 20px;
 }
-p {
-    margin: 0;
+.blue-reg {
+    font-size: 14px;
 }
